@@ -6,35 +6,27 @@ The .json can be best viewed and edited at [[https://config.qmk.fm/#/atreus/LAYO
 More on the  [[https://atreus.technomancy.us/][keyboard]] and the [[https://atreus.technomancy.us/flash][firmware]].
 
 ** My Layout
-is close to the standard but probably less emacs driven.
+I use super more than alt, so it got a more prominent position.
+Also, took some things out I only hit on accident, like pgup/pgdn on fn layer.
 
  :    q     w     e     r     t        ||        y     u     i     o    p
  :    a     s     d     f     g        ||        h     j     k     l    ;
  :    z     x     c     v     b        ||        n     m     ,     .    /
- :   esc   tab  ctrl  shift super bksp || enter space  fn     -     '  alt
+ :   esc   tab  alt  shift bksp super  || ctrl space  fn     -     '  alt
 
 fn layer:
 
- :    !    @     up     {    }         ||       pgup    7     8     9    *
- :    ^  left   down  right  $         ||       pgdn    4     5     6    +
- :    [    ]      (     )    &         ||         `     1     2     3    \
- :   L2  insert ctrl  shift super del  || enter space   fn    .     0    =
+ :    -    '     up     {    }         ||               7     8     9    
+ :    ^  left   down  right  $         ||               4     5     6    =
+ :    [    ]      (     )              ||         `     1     2     3    \
+ :   L2         alt  shift bksp super  || ctrl space   fn           0    
 
 =L2= layer
 
- :  insert home    ↑    end  pgup      ||         ↑     F7    F8    F9   F10
- :    del   ←      ↓     →   pgdn      ||         ↓     F4    F5    F6   F11
+ :                 ↑         pgup      ||         ↑     F7    F8    F9   F10
+ :          ←      ↓     →   pgdn      ||         ↓     F4    F5    F6   F11
  :         Vol+              reset     ||               F1    F2    F3   F12
- :         Vol- ctrl  shift super del  || enter space   L0             
-
-** ente
-this layout only has the enter alt switch and the following adjustments to
-the fn layer:
-
- :    !    @     up     {    }         ||       pgup    7     8     9    *
- :    ^  left   down  right  $         ||       pgdn    4     5     6    +
- :    [    ]      (     )    &         ||         `     1     2     3    \
- :   L2  insert super  shift del ctrl  || enter space   fn    .     0    =
+ :         Vol-   alt shift  bksp  super || ctrl space   L0    prev  play  next
 
 ** uploading
 just a reminder of the upload command:
